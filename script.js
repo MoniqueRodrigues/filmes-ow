@@ -36,8 +36,6 @@ function addHTML(item){
 }
 
 
-
-
 window.onload= function(){
     fetch(api)
         .then(data =>data.json())
