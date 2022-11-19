@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body{
+    background-color: #a8a8f0;
+    height:100vh;
+  
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(51, 1, 51);
+    color: aliceblue;
+    height: 100px;
+ }
+ .imgOwen{
+    width:70px;
+    height:70px;
+    margin-top: 10px;   
+ }
+ 
+ .title{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ main{
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    height: calc(100vh - 50px);
+ }
+
+input{
+    padding: 10px;
+    border: solid 1px transparent;  
+    padding-right:100px;
+    display: flex;
+    margin-left:120px;
+    margin-top:5px;
+    font-size: 15px;
+    outline: none;
+ 
+
+}
+.lupa{
+    width: 30px;
+    margin-left: 360px;   
+    position: relative;
+    top: 45px;
+}
+
+
+
+#movie{
+    height:270px;
+    width:200px;
+    display: flex;
+    flex-direction: column; 
+    margin:50px;
+
+} 
+#movie img{
+    height:270px;
+    width: 200px;
+    display: flex;
+    justify-content:space-around;
+}
+
+#movie:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 2px 3px aliceblue;
+
+}
+
+
+.button{
+    width: 100px;
+    height: 60px;
+}
+
+
+
+
+/* button{
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+} */
